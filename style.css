@@ -1,0 +1,97 @@
+body {
+    font-family: 'Poppins', sans-serif;
+    background: #F1F5F9;
+}
+
+/* NAVBAR */
+.custom-navbar {
+    background: rgba(2,6,23,0.9);
+}
+
+/* HERO */
+.hero {
+    height: 100vh;
+    background: linear-gradient(135deg, #0F172A, #020617);
+    color: white;
+}
+
+.accent {
+    color: #14B8A6;
+}
+
+.btn-accent {
+    background: #14B8A6;
+    color: white;
+    border: none;
+}
+
+.btn-accent:hover {
+    background: #0d9488;
+}
+
+/* TERMINAL */
+.terminal {
+    background: #020617;
+    color: #14B8A6;
+    padding: 20px;
+    border-radius: 10px;
+    font-family: 'Fira Code', monospace;
+    box-shadow: 0 0 20px rgba(20,184,166,0.3);
+}
+
+/* SECTION */
+.section {
+    padding: 80px 0;
+}
+
+/* ABOUT */
+.profile-img {
+    width: 200px;
+    border-radius: 50%;
+}
+
+/* SKILLS */
+.skill-card {
+    background: white;
+    padding: 20px;
+    text-align: center;
+    border-radius: 10px;
+    transition: 0.3s;
+    font-weight: 500;
+}
+
+.skill-card:hover {
+    transform: translateY(-5px);
+    border: 1px solid #14B8A6;
+}
+
+/* PORTFOLIO */
+.portfolio-card {
+    background: white;
+    padding: 20px;
+    border-radius: 10px;
+    transition: 0.3s;
+}
+
+.portfolio-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 10px 30px rgba(0,0,0,0.1);
+}
+
+/* FOOTER */
+footer {
+    background: #020617;
+    color: white;
+    padding: 30px 0;
+}
+
+.social-icons a {
+    color: white;
+    margin: 0 10px;
+    font-size: 20px;
+    transition: 0.3s;
+}
+
+.social-icons a:hover {
+    color: #14B8A6;
+}
